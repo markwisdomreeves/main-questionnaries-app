@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#main-questionaries {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+#main-questionaries button {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 5px 5px;
+    cursor: pointer;
+    color: #111;
+    margin: 5px;
+    text-transform: uppercase;    
+}
+#main-questionaries a {
+    text-align: center;
+    padding: 5px 5px;
+    margin: 10px;
+    text-transform: uppercase;  
+}
+#main-questionaries .isDisabled {
+    color: currentColor;
+    pointer-events: none;
+    opacity: 0.5;
+    text-decoration: none;
+} 
